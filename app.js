@@ -6,6 +6,10 @@ app.get("/", (req, res) => {
   res.send("hlw from the devops side !!!");
 });
 
+app.get("/test", (req, res) => {
+  res.send("test");
+});
+
 app.listen(PORT, () => {
   console.log(`Server is running ${PORT}`);
 });
